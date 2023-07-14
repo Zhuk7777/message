@@ -1,0 +1,20 @@
+###
+POST http://localhost:8080/message
+Content-type: application/json
+
+{
+  "sender": "Dima",
+  "text": "Hello world!"
+}
+
+###
+POST http://localhost:8080/message
+Content-type: application/json
+
+{
+  "sender": "David",
+  "text": "It is my first spring boot application!"
+}
+
+###
+GET http://localhost:8080/export
